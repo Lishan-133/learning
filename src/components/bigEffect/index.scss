@@ -17,12 +17,11 @@ h1{
     margin:  auto;
     width: 600px;
     height:400px ;
-     background-color: rgb(119, 72, 11); 
+     //background-color: rgb(119, 72, 11); 
 }
 .father{
         width:600px;
     height:200px;
-        background-color: pink;
  }
 
  .history .content{
@@ -50,22 +49,71 @@ h1{
 }
 }
 .text{
-    line-height: 15px;
+    line-height: 25px;
     #title{
+        margin-top: 30px;
         margin-left: 30px;
         font-size: 30px;
     }
     #words{
-        margin-left: 30px;
+        margin-top: 30px;
+        margin-left: 20px;
         font-size: 15px;
     }
 
 } 
 
-
+.history
 .arco-carousel-arrow{
     opacity: 0;
 }
 
+.history
+.arco-carousel-indicator{
+    top:150px;
+    .arco-carousel-indicator-item{
+        width: 50px;
+        height: 50px;
+}
+}
  
- 
+.history
+ .arco-carousel-indicator-item[data-index='0']{
+        background: url('./innerImages/11.png') no-repeat;
+        background-size: cover;
+        background-size: 450%;
+        background-position: -15px  -55px;
+ }
+ .history
+ .arco-carousel-indicator-item[data-index='1']{
+    background: url('./innerImages/12.png') no-repeat;
+    background-size: cover;
+    background-size: 350%;
+    background-position: -18px  -39px;
+}
+.history
+.arco-carousel-indicator-item[data-index='2']{
+    background: url('./innerImages/13.png') no-repeat;
+    background-size: cover;
+    background-size: 600%;
+    background-position: -55px  -88px;
+}
+.history
+.arco-carousel-indicator-item[data-index='3']{
+    background: url('./innerImages/14.png') no-repeat;
+    background-size: cover;
+    background-size: 321%;
+    background-position: -55px  -19px;
+}
+
+
+ hr{
+    margin-top: 325px;
+    width: 600px;
+   border: 2px solid black;
+}
+
+.history
+.arco-carousel-indicator-wrapper-bottom{
+   background:transparent ;
+}

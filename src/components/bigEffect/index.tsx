@@ -22,7 +22,7 @@ export const BigEffect = (props: bigEffectListProps) =>{
         <div className="history">
             <h1>大事记</h1>
             <div className="content">
-                <Carousel  indicatorType='never'>
+                <Carousel  indicatorType='dot'  indicatorClassName='indicator-test'>
                  {bigEffectList.map((carousel,i) => (
                 <div className="father">
                     <div className="img-container">
@@ -33,10 +33,12 @@ export const BigEffect = (props: bigEffectListProps) =>{
                     <p id="title">{carousel.desc.title}</p>
                     <p id="words">{carousel.desc.content}</p>
                 </div>
+                
                 </div>
              ))} 
                 </Carousel> 
-            </div>
+             </div>   
+               <hr />
         </div>
     </div>
     )

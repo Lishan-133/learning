@@ -16,7 +16,7 @@ export const Carouseltop = ()=>{
      ]
 
     return(
-        <div>
+        <div className="fill">
             <div className="nomove" >
                 <p id="title">使命</p>
                 <p id="content" >激发创造 丰富生活</p>
@@ -24,7 +24,7 @@ export const Carouseltop = ()=>{
             
             
             <div className="img-container">
-                <Carousel  style={{width: 1470,height: 740}} indicatorType='dot' autoPlay={true}>
+                <Carousel   indicatorType='dot' autoPlay={true}>
                         {imagesList.map((imagesSrc,i) => (
                             <div key={i} className="imagesBox">
                                 <img src={imagesSrc} alt='pic'/>

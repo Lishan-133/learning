@@ -2,6 +2,7 @@ import React from "react";
 import { BigEffect } from "./components/bigEffect";
 import { CarouselList } from "./components/carouse-list/index";
 import { Carouseltop } from "./components/carousel1";
+import { Navigate } from "./components/nav";
 const App = () => {
   const carouseList = [
     {
@@ -38,7 +39,7 @@ const App = () => {
       },
     },
     {
-      imgSrc: "images/3.jpg",
+      imgSrc: "images/4.jpg",
       desc: {
         title: "始终创业",
         contentList: [
@@ -49,7 +50,7 @@ const App = () => {
       },
     },
     {
-      imgSrc: "images/3.jpg",
+      imgSrc: "images/5.jpg",
       desc: {
         title: "始终创业",
         contentList: [
@@ -60,7 +61,7 @@ const App = () => {
       },
     },
     {
-      imgSrc: "images/3.jpg",
+      imgSrc: "images/6.jpg",
       desc: {
         title: "始终创业",
         contentList: [
@@ -84,7 +85,7 @@ const App = () => {
       imgSrc: "images/12.png",
     desc: {
       title: "2017年6月",
-      content: "头条问答全新升级为悟空问答"
+      content: "字节跳动向中国红十字基金会捐赠2亿元,成立“中国红十字基金会字节跳动医务人员人道主义援助基金"
     }
     },
     {
@@ -110,7 +111,7 @@ const App = () => {
   
   return(
     <>
-
+<Navigate></Navigate>
 <Carouseltop></Carouseltop>
 <CarouselList carouselList={carouseList} />
 <BigEffect bigEffectList={bigEffectList}/>

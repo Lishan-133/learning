@@ -1,5 +1,10 @@
+* {
+  margin: 0 auto;
+}
+
 .top {
   border-radius: 18px;
+  margin: 0 auto;
 }
 
 .top .img-container {
@@ -23,17 +28,19 @@
   position: relative;
   width: 100%;
   height: 40%;
+  padding-left: 50px;
 }
 
 .top .desc-container .desc-title {
   padding-left: 30px;
+  padding-top: 10px;
   font-size: 1.2rem;
   font-weight: 700;
 }
 
 .top .desc-container .ul.desc-content {
-  padding: 0px;
-  margin: 0px;
+  padding-left: 0px;
+  margin-left: s0px;
   position: relative;
   font-size: 2rem;
   text-align: left;
@@ -41,19 +48,34 @@
 
 .arco-carousel-arrow
 .arco-carousel-arrow-left {
-  background-color: black;
+  background-color: transparent;
   color: #120101;
   margin-top: 60px;
 }
 
 .arco-carousel-arrow
-.arco-carousel-arrow-right {
-  background-color: black;
-  color: brown;
+.arco-carousel-arrow-left .arco-icon {
+  width: 200px;
+  height: 200px;
+  color: #b31111;
+}
+
+.arco-carousel-arrow
+.arco-carousel-arrow-left .arco-icon :hover {
+  color: chartreuse;
+}
+
+.arco-carousel-arrow .arco-carousel-arrow-right {
+  background-color: transparent;
   margin-top: 60px;
 }
 
-.top.div.arrow-test1:hover .arco-carousel-arrow-left,
-.top.div.arrow-test1:hover .arco-carousel-arrow-right {
-  color: black;
+.arco-carousel-arrow .arco-icon {
+  width: 200px;
+  height: 200px;
+  color: #f01616;
+}
+
+.arco-carousel-arrow .arco-icon :hover {
+  color: chartreuse;
 }
